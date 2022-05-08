@@ -1,14 +1,18 @@
-# hclmidterm
-Java/MySQL Console-Based CRUD Application
-  
-  About: 
-	Midterm project for the WozU & HCL pre-apprenticeship program.
-	
-	Creators: 
-	Paul Chinnam, Joseph Huntley, Cedric Patton
-	
-	Purpose: 
-	Demonstrates CRUD actions in a CLI Java application connected to a MySQL database
-	
-	Running the project:
-	This project includes a SQL script file. Run the HCL_midterm.sql script to create the MySQL database schema. To run from terminal, change your working directory to 'hclmidterm,' compile the directory using the 'javac' command, then run the code using the 'java' command.
+# Java/MySQL CLI-Based CRUD Application
+ 
+Database features 3 employee tables
+- Benefits table
+- Employee table
+- Payroll table
+
+# CRUD Features
+Create
+Read
+- view all employees
+- view a specific employee
+- view all data from a specified table
+Update
+- update data by ID
+- update data by attribute
+Delete
+- delete employee information by ID
