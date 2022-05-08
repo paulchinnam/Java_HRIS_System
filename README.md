@@ -1,18 +1,18 @@
 # Java/MySQL CLI-Based CRUD Application
  
-Database features 3 employee tables
+## Database features 3 employee tables
 - Benefits table
 - Employee table
 - Payroll table
 
 # CRUD Features
-Create
-Read
+## Create
+## Read
 - view all employees
 - view a specific employee
 - view all data from a specified table
-Update
+## Update
 - update data by ID
 - update data by attribute
-Delete
+## Delete
 - delete employee information by ID
