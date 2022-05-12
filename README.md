@@ -19,4 +19,4 @@
 
 # Spring enabled GUI
 
-Directory titled "spring-crud-webapp" is extends the CLI-based project into a web-based application with the Spring framework
+Directory titled "spring-crud-webapp" extends the CLI-based project into a web-based application with the Spring framework
