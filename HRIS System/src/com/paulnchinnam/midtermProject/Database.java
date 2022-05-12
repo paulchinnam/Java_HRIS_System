@@ -13,7 +13,7 @@ public class Database {
 		// Establish database connection
 		String url = "jdbc:mysql://localhost:3306/hris";
 		String user = "root";
-		String password = "admin";
+		String password = "Paul2002";
 		
 		/* Declaring variable since java cannot return an undeclared. 
 		*If an error occurs prior to assigning the connection variable 

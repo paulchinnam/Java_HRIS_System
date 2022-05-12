@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DecimalFormat;
 import java.util.Scanner;
-//Author - Joseph Huntley
+
 public class ReadEntry {
 	//Creates a connection to the database
 	static Connection connection = Database.con();
@@ -65,7 +65,7 @@ public class ReadEntry {
 		 * displays it in a user friendly Format
 		 */
 		try {
-			String sql = "SELECT * FROM EmployeeInfo;";
+			String sql = "SELECT * FROM Employee;";
 			PreparedStatement p = connection.prepareStatement(sql);
 			ResultSet rs = p.executeQuery();
 			// Prints out the header.
@@ -73,9 +73,10 @@ public class ReadEntry {
 
 			while (rs.next()) {
 				// Collects and prints every employee's ID, and name.
-				int id = rs.getInt("ID");
-				String name = rs.getString("Name");
-				System.out.println(id + "\t\t" + name);
+				int id = rs.getInt("employee_id");
+				String firstName = rs.getString("first_name");
+				String lastName = rs.getString("last_name");
+				System.out.println(id + "\t\t" + firstName + " " + lastName);
 			}
 		} catch (SQLException e) {
 			// Catches any mySQL exceptions.
