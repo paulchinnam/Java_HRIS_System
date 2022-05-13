@@ -43,7 +43,6 @@ public class CreateEntry {
 			
 			System.out.println(payRate + " " + benefitId);
 			rs.next();
-			// System.out.println(rs.getString("employee_id"));1
 			
 			int employeeId = Integer.valueOf(rs.getString("employee_id"));
 			System.out.println(employeeId);
